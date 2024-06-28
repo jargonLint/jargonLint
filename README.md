@@ -9,7 +9,7 @@ The repository to find popular Vale rules that are:
 
 [Vale](https://vale.sh/) is an open source documentation software, accessible both from the [command-line](https://vale.sh/docs/vale-cli/installation/) or through [integrations](https://vale.sh/docs/integrations/guide/). An important advantage of the software is its capability to support custom [styles](https://vale.sh/docs/topics/styles/) and [lint actions](https://vale.sh/docs/topics/actions/).
 
-Organizations including [Red Hat](https://github.com/redhat-documentation/vale-at-red-hat) and [Splunk](https://github.com/splunk/vale-splunk-style-guide) that use Vale also publish their configurations with permissive licenses. The repositories with these rulesets can be very useful to learn and adapt from. However, they also reveal that many documentation writers have re-iterated upon similar rules delivering the same results.
+Many organizations that use Vale, sincluding [Red Hat](https://github.com/redhat-documentation/vale-at-red-hat) and [Splunk](https://github.com/splunk/vale-splunk-style-guide), often publish their configurations with permissive licenses. The repositories with these rulesets can be very useful to learn and adapt from. However, they also reveal that many documentation writers have re-iterated upon similar rules delivering the same results.
 
 ## Our Contribution
 
