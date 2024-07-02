@@ -5,5 +5,5 @@
 To sort rules that extend substitution
 
 ```shell
-awk -FS=':' '{print $2 $1}' rule.yaml | sort | awk -FS=':' '{print $2 $1}'
+yq '.swap |= ((to_entries | sort_by(.value | downcase)) | from_entries) '
 ```

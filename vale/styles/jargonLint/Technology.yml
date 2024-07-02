@@ -6,8 +6,22 @@ ignorecase: true
 level: warning
 message: Use '%s' instead of '%s'
 swap:
+  # Disable yamlint rule about line length
+  # yamllint disable-line rule:line-length
+  #
+  # Sources
+  # - https://github.com/sapegin/textlint-rule-terminology/blob/master/terms.jsonc
+  # - https://github.com/paradite/frontend-encyclopedia/blob/main/scripts/data.json
+  # - https://github.com/huacnlee/autocorrect/blob/main/.autocorrectrc.template
+  # - many others
+  #
+  # Restore yamlint rule about length
+  # yamllint enable rule:line-length
+  #
+  # Ad hoc: Ad hoc # risk of false positives
   ACL: ACL
   ACLs: ACLs
+  ActionScript: ActionScript
   ActiveMQ: ActiveMQ
   Adwords: Adwords
   AirPods: AirPods
@@ -15,42 +29,56 @@ swap:
   Aliyun: Aliyun
   Alpine: Alpine
   Altassian: Altassian
+  Amazon S3: Amazon S3
+  Android: Android
   Angular ?JS: AngularJS
   Ansible(?!\.com): Ansible
   Apache(?!\.org): Apache
   API: API
   Apify: Apify
   APIs: APIs
+  App[ ]?Store: App Store
   AppKit: AppKit
   AppleScript: AppleScript
-  App[ ]?Store: App Store
+  ASCII: ASCII
+  (?<!\.)AsciiDoc: AsciiDoc  # also a file extension
+  AST: AST
   AWS: AWS
   Bitbucket: Bitbucket
   BitTorrent: BitTorrent
   Browserify(?!\.org): Browserify
   BrowserStack(?!\.com): BrowserStack
   CacheStorage: CacheStorage
+  CalDAV: CalDAV
+  CC[ -]?BY[ -]?4(?:\.0)?: CC BY 4.0 # License
   CDN: CDN
   CentOS(?!\.org): CentOS
+  ChatGPT: ChatGPT
   CircleCI(?!\.com): CircleCI
   CLI: CLI
   Cloudflare(?!\.com): Cloudflare
   CloudFront: CloudFront
+  CMake: CMake
   CoffeeScript(?!\.org): CoffeeScript
   Common[ .]?js: CommonJS
+  CommonMark(?!\.org): CommonMark
   Consul(?!\.io): Consul
   CORS: CORS
   CPU: CPU
   CPUs: CPUs
   (?<!\.)CSON: CSON  # also a file extension
   (?<!\.)CSV: CSV  # also a file extension
+  cURL: cURL
   Cypress(?!\.io): Cypress
   D3\.js: D3.js
   Dailymotion(?!\.com): Dailymotion
   day\.js: day.js
   DB: DB
   DBs: DBs
+  DDoS: DDoS
+  Debian(?!\.org): Debian
   Deno(?!\.com): Deno
+  DHCP: DHCP
   DLQ: DLQ
   DNS: DNS
   Docker(?!\.com): Docker
@@ -58,6 +86,7 @@ swap:
   Docusaurus(?!\.io): Docusaurus
   DOM: DOM
   ECharts: ECharts
+  ECMAScript: ECMAScript
   EditorConfig: EditorConfig
   Elastic[ -]?search: Elasticsearch
   Electron: Electron
@@ -67,26 +96,40 @@ swap:
   Ext[ -]?3: Ext3
   Ext[ -]?4: Ext4
   Facebook(?!\.com): Facebook
+  Fastly: Fastly
   Figma(?!\.com): Figma
   Firebase: Firebase
+  Firefox: Firefox
   Flickr(?!\.com): Flickr
   Flutter(?!\.dev): Flutter
   Font[ -]?Awesome(?!\.com): Font Awesome
+  Fork ?Awesome: Fork Awesome
+  ForkJS: ForkJS
+  Fort ?Awesome: Fort Awesome
+  FreeBSD(?!\.org): FreeBSD
   FTP: FTP
+  fzf: fzf
   GeForce: GeForce
+  GenAI: GenAI
   GeoJSON: GeoJSON
   Git: Git
+  GitHub(?!\.com|\.io): GitHub
   GitHub Action: GitHub Action
   GitHub Actions: GitHub Actions
-  GitHub(?!\.com|\.io): GitHub
   GitHub Page: GitHub Page
   GitHub Pages: GitHub Pages
   GitLab(?!\.com): GitLab
   GNUMake: GNUMake
-  golangci[ -]?lint: golangci-lint
+  GnuPG(?!\.org): GnuPG
   Golang(?!\.org): Golang
+  golangci[ -]?lint: golangci-lint
   Google(?!\.com): Google
+  Google ?Form: Google Form
   GoReleaser(?!\.com): GoReleaser
+  GPL(?!\.org): GPL  # License
+  GPL ?v?2: GPLv2  # License
+  GPL ?v?3(?!\+): GPLv3  # License
+  GPL ?v?3\+: GPLv3+  # License
   GPU: GPU
   GPUs: GPUs
   Grafana: Grafana
@@ -97,26 +140,40 @@ swap:
   Grunt: Grunt
   GSuite: GSuite
   Gulp: Gulp
+  (?<!\.)gzip: gzip  # also a file extension
   H5: H5
   Hadoop: Hadoop
   HAProxy(?!\.org): HAProxy
   HBase: HBase
   HDFS: HDFS
   Highcharts: Highcharts
+  Hive ?MQ: HiveMQ
   HKEX: HKEX
+  HMAC: HMAC
   Homebrew: Homebrew
+  HSL: HSL  # Hue, Saturation, and Lightness
+  HSLA: HSLA  # Hue, Saturation, Lightness, Alpha
   (?<![\./])HTML: HTML  # also a file extension, also a Content-Type
+  HTML4: HTML4
+  HTML5: HTML5
   (?<!\.)HTMX: HTMX  # also a file extension
-  HTTP(?!:): HTTP    # protocol, but http:// is accepted
+  HTTP(?!:): HTTP  # protocol, but http:// is accepted
+  HTTP[ /]?1\.0: HTTP/1.0
+  HTTP[ /]?1\.1: HTTP/1.1
+  HTTP[ /]?2(?:\.0)?: HTTP/2
+  HTTP[ /]?3(?:\.0)?: HTTP/3
   HTTPS(?!:): HTTPS  # protocol, but https:// is accepted
   Hugo: Hugo
   I10n: I10n
   i18n: i18n
   IDE: IDE
+  IMAP: IMAP
   iMovie: iMovie
   IndexedDB: IndexedDB
+  InfluxDB: InfluxDB
   Instagram(?!\.com): Instagram
   Intel(?!\.com): Intel
+  IntelliJ: IntelliJ
   iOS: iOS
   iPad: iPad
   iPadOS: iPadOS
@@ -132,16 +189,23 @@ swap:
   JetBrains(?!\.com): JetBrains
   Jira: Jira
   jQuery(?!\.com): jQuery
-  (?<!\.)JSON[ -]?5: JSON5  # also a file extension
-  (?<!\.)JSON[ -]?C: JSONC  # also a file extension
   (?<![\./"\+])JSON: JSON  # also a file extension, Content-Type, and quoted value
   (?<!\.)JSON[ -]?LD: JSON-LD  # also a file extension
-  (?<!\.)JSONL: JSONL  # also a file extension
   (?<!\.)JSON[ -]?RPC: JSON-RPC  # also a file extension
+  (?<!\.)JSON[ -]?5: JSON5  # also a file extension
+  (?<!\.)JSON[ -]?C: JSONC  # also a file extension
+  (?<!\.)JSONL: JSONL  # also a file extension
+  JSONPath(?!\.com): JSONPath
   JWT: JWT
   Kafka: Kafka
+  Kaspersky(?!\.com): Kaspersky
+  KeePass(?!\.(?:info|fr)): KeePass
   Kibana: Kibana
   KO: KO
+  LaTeX: LaTeX
+  LDAP(?!\.com): LDAP
+  LGPL: LGPL  # License
+  LibreOffice(?!\.org): LibreOffice
   LinkedIn(?!\.com): LinkedIn
   Linux(?!/(?:amd64|arm64|ppc64le|s390x)): Linux  # exclude linux/amd64, linux/arm64, ...
   LocalStorage: LocalStorage
@@ -154,33 +218,50 @@ swap:
   MariaDB(?!\.org): MariaDB
   Markdown: Markdown
   Microsoft(?!\.com): Microsoft
+  MochaJS(?!\.org): MochaJS
   Modernizr(?!\.com): Modernizr
   Moment\.?js: Moment.js
   MongoDB: MongoDB
   Mozilla(?!\.org): Mozilla
+  MQTT: MQTT
   MVC: MVC
   MVP.css: MVP.css
   MySQL(?!\.com): MySQL
   Nasdaq(?!\.com): Nasdaq
   (?<!\.)ND[ -]?JSON: NDJSON  # also a file extension
   NestJS: NestJS
+  NetBSD: NetBSD
   Netflix(?!\.com): Netflix
   Netlify: Netlify
   Next.js: Next.js
+  nginx(?!\.com): nginx
+  NixOS(?!\.org): NixOS
   Node[ .]?js: Node.js
   Nominatim(?!\.org): Nominatim
   NoSQL: NoSQL
   npm: npm
   Nvidia: Nvidia
+  nvm(?!\.io): nvm
   NYSE(?!\.com): NYSE
   OAuth: OAuth
   Objective[ -]?C: Objective-C
   Observability: Observability
-  # OK: OK # common word, not a technology
+  # OK: OK  # common word, not a technology
   OLAP: OLAP
+  OpenAI: OpenAI
   OpenAPI: OpenAPI
+  OpenCensus: OpenCensus
+  OpenID: OpenID
   OpenID[ -]?Connect: OpenID Connect
+  OpenJDK: OpenJDK
+  OpenOffice(?!\.org): OpenOffice
+  OpenPGP: OpenPGP
+  OpenSSH(?!\.(?:com|org)): OpenSSH
   OpenSSL(?!\.(?:org|cnf|conf)): OpenSSL
+  OpenStack: OpenStack
+  OpenTelemetry: OpenTelemetry
+  (?<!\.)OpenVPN: OpenVPN  # also a file extension
+  OpenVZ: OpenVZ
   OSM: OSM
   # OSS: OSS  # some people write OSs as the plural of OS, instead of OSes
   OVH(?!\.(?:com|net)): OVH
@@ -188,47 +269,64 @@ swap:
   PaaS: PaaS
   Parcel: Parcel
   PayPal(?!\.com): PayPal
+  PCRE: PCRE
+  PCRE1: PCRE1
+  PCRE2: PCRE2
   (?<!\.)PDF: PDF  # also a file extension
   Perconn?a(?!\.com): Percona
   Perl(?!\.org): Perl
+  PhantomJS: PhantomJS
   (?<!\.)PHP: PHP  # also a file extension
   Pinterest(?!\.com): Pinterest
   PlayStation(?!\.com): PlayStation
   (?<!\.)PNG: PNG  # also a file extension
   pnpm: pnpm
+  Pomerium(?!\.com): Pomerium
+  POP3: POP3
+  POSIX: POSIX
   Postgres? ?SQL: PostgreSQL
   Postman(?!\.com): Postman
   PostScript: PostScript
+  PowerShell: PowerShell
   Prettier: Prettier
   Prometheus(?!\.io): Prometheus
+  PubSub: PubSub
   Pwned: Pwned
+  PyYAML: PyYAML
   RabbitMQ(?!\.com): RabbitMQ
+  Rackspace(?!\.com): Rackspace
+  React[ \.]?js: React
   React Bootstrap: React Bootstrap
   React Hook Form: React Hook Form
-  React[ \.]?js: React
   React Native: React Native
-  # React: React # common words, we cannot add it without facing issues
+  # React: React  # common words, we cannot add it without facing issues
   React-Toastify: React-Toastify
   READ[ -]?ME(?:s): README
   Reddit(?!\.com): Reddit
   Redis(?!\.io): Redis
   Redux: Redux
-  Redux-Saga: Redux-Saga
   Redux Toolkit: Redux Toolkit
+  Redux-Saga: Redux-Saga
   RefluxJS: RefluxJS
   Renren: Renren
+  RequireJS: RequireJS
   RESTful: RESTful
   # REST: REST ## common words, we cannot add it without facing issues
+  reStructuredText: reStructuredText
   RFC: RFC  # Request for Comments
+  RGB: RGB  # Red, Green, and Blue
+  RGBA: RGBA  # Red, Green, Blue, and Alpha
   (?<!\.)RSS: RSS
   RubyGem: RubyGem
   RubyGems: RubyGems
   Rust: Rust
+  RVM: RVM
   SaaS: SaaS
   Sales?[ -]?forces?: Salesforce
   Samba: Samba
   SAML: SAML
   (?<!\.)Sass: Sass
+  (?<!\.)SCSS: SCSS
   ScyllaDB: ScyllaDB
   SDK: SDK
   SemVer: SemVer
@@ -236,26 +334,33 @@ swap:
   SFTP: SFTP
   Shopify: Shopify
   SinaWeibo: SinaWeibo
+  SMTP: SMTP
   Socialgist: Socialgist
   Socket.IO: Socket.IO
   SolidJS: SolidJS
   SPA: SPA
-  (?<!\.)SQLite3: SQLite3  # also a file extension
-  (?<!\.)SQLite: SQLite  # also a file extension
-  SQLServer: SQLServer
+  SphinxDoc: SphinxDoc
   (?<!\.)SQL: SQL  # also a file extension
+  (?<!\.)SQLite: SQLite  # also a file extension
+  (?<!\.)SQLite3: SQLite3  # also a file extension
+  SQLServer: SQLServer
   SSH: SSH
   SSL: SSL
   Stack[ ]?Overflow: Stack Overflow
   Sublime ?Text: Sublime Text
+  SunOS: SunOS
   SUSE: SUSE
   (?<!\.)SVG: SVG  # also a file extension
+  Swagger(?!\.io): Swagger
   Symfony(?!\.com): Symfony
   Tailwind CSS: Tailwind CSS
   Tamagui: Tamagui
+  TCL: TCL
+  TCP: TCP
   TensorFlow.js: TensorFlow.js
   Tesla(?!\.com): Tesla
   Three\.js: Three.js
+  Thunderbird(?!\.net): Thunderbird
   TikTok(?!\.com): TikTok
   TODO: TODO
   (?<!\.)TOML: TOML  # also a file extension
@@ -265,24 +370,32 @@ swap:
   (?<!\.)TSV: TSV  # also a file extension
   TTL: TTL
   TTY: TTY
-  tvOS: tvOS
+  TUI: TUI
   TV: TV
+  tvOS: tvOS
   Twitter(?!\.com): Twitter
   TypeScript: TypeScript
   Ubuntu(?!\.com): Ubuntu
+  UDP: UDP
   UML: UML
-  Unicode: Unicode
+  Unicode(?!\.org): Unicode
   Unix: Unix
   upload\.js: upload.js
-  URIs: URIs
   URI: URI
-  URLs: URLs
+  URIs: URIs
   (?<!["\.])URL: URL  # also a file extension, but also URL with quotes
+  URLs: URLs
+  UUID: UUID
   UUIDs: UUIDs
+  Valkey(?!\.io): Valkey
+  Varnish: Varnish
+  Verizon(?!\.com): Verizon
   Viewer\.js: Viewer.js
   Vim: Vim
+  VirtualBox(?!\.org): VirtualBox
   Visual ?Studio ?Code: Visual Studio Code
   VKontakte: VKontakte
+  VMWare(?!\.com): VMware
   VS[- ]?Code: VS Code
   Vue\.js: Vue.js
   W3C(?!\.org): W3C
@@ -290,6 +403,7 @@ swap:
   WebAssembly: WebAssembly
   WebKit: WebKit
   Webpack: Webpack
+  WebRTC: WebRTC
   WebStorm: WebStorm
   Wechat: Wechat
   Weibo: Weibo
@@ -302,12 +416,16 @@ swap:
   WordPress(?!\.com): WordPress
   WWDC: WWDC
   Xcode: Xcode
+  XDG: XDG
   Xiaohongshu: Xiaohongshu
   Xiaomi: Xiaomi
   (?<!\.)XML: XML  # also a file extension
+  XMLHttpRequest: XMLHttpRequest
+  XtraBackup: XtraBackup
   (?<!\.)YAML: YAML  # also a file extension
   Yarn: Yarn
   (?<!\.)YML: YML  # also a file extension
   YouTube(?!\.com): YouTube
   z-?index: z-index
+  zlib(?!\.net): zlib
   Zsh(?!\.org): Zsh
