@@ -62,7 +62,7 @@ Instances of abusive, harassing, or otherwise unacceptable behavior may be
 reported to the maintainers responsible for enforcement at:
 
 alexvonme at matrix dot org
-(This is not an email address, you may reach it after opening an account in matrix)
+(This is not an email address, you may reach it after opening an account in matrix dot org)
 
 All complaints will be reviewed and investigated promptly and fairly.
 
