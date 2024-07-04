@@ -1,0 +1,16 @@
+---
+name: continuous-integration
+on:
+  pull_request:
+jobs:
+  ci-lint:
+    runs-on: ubuntu-latest
+    continue-on-error: true  # overload all job
+    steps:
+      - name: checkout-action
+        continue-on-error: false  # this one cannot fail
+        uses: actions/checkout@v4.1.7
+
+      - name: yamllint-action
+        uses: ibiqlik/action-yamllint@v3
+        #  uses: reviewdog/action-yamllint@v1  # failed to detect errors...
