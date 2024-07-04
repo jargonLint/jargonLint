@@ -6,14 +6,13 @@ message: Use '%s' instead of '%s'
 action:
   name: replace
 swap:
-  Apache[ -]?2(?:\.0)?:Apache 2.0
-  [0O]BSD: 0BSD
+  Apache[ -]?2(?:\.0)?: Apache 2.0
+  "[0O]BSD": 0BSD
   BSD: BSD
-  BSD ?1: BSD-1
-  BSD ?2: BSD-2
-  BSD ?3: BSD-3
+  BSD[ -]1: BSD-1
+  BSD[ -]2: BSD-2
+  BSD[ -]3: BSD-3
   CC[ -]?BY[ -]?: CC BY
-  CC[ -]?BY[ -]?4(?:\.0)?: CC BY 4.0
   CC[ -]?BY[ -]?4(?:\.0)?: CC BY 4.0
   CC[ -]?BY[ -]?NC: CC BY-NC
   CC[ -]?BY[ -]?NC[ -]?4(?:\.0)?: CC BY-NC 4.0
