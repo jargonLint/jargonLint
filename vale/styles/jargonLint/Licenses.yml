@@ -1,6 +1,4 @@
 ---
-action:
-  name: replace
 extends: substitution
 ignorecase: true
 level: warning
