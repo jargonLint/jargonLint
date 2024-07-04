@@ -1,11 +1,17 @@
 ---
-action:
-  name: replace
 extends: substitution
 ignorecase: true
 level: warning
 message: Use '%s' instead of '%s'
+action:
+  name: replace
 swap:
+  Apache[ -]?2(?:\.0)?:Apache 2.0
+  [0O]BSD: 0BSD
+  BSD: BSD
+  BSD ?1: BSD-1
+  BSD ?2: BSD-2
+  BSD ?3: BSD-3
   CC[ -]?BY[ -]?: CC BY
   CC[ -]?BY[ -]?4(?:\.0)?: CC BY 4.0
   CC[ -]?BY[ -]?4(?:\.0)?: CC BY 4.0
@@ -21,9 +27,15 @@ swap:
   CC[ -]?BY[ -]?SA[ -]?4(?:\.0)?: CC BY-SA 4.0
   CC[ -]?[O0]: CC0
   CC[ -]?0[ -]?1(?:\.0)?: CC0 1.0
+  EPL: EPL
+  EPL[ -]?2(?:\.0)?: EPL 2.0
+  EUPL: EUPL
+  EUPL[ -]?v1(?:\.2)?: EUPL v1.2
   GPL(?!\.org): GPL
   GPL ?v?2: GPLv2
   GPL ?v?3(?!\+): GPLv3
   GPL ?v?3\+: GPLv3+
   LGPL: LGPL
   MIT: MIT
+  MPL: MPL
+  MPL[ -]?2(?:\.0)?: MPL 2.0
