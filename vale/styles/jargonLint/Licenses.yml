@@ -37,3 +37,5 @@ swap:
   GPL ?v?3\+: GPLv3+
   LGPL: LGPL
   MIT: MIT
+  MPL: MPL
+  MPL[ -]?2(?:\.0)?: MPL 2.0
