@@ -6,9 +6,9 @@ message: Use '%s' instead of '%s'
 action:
   name: replace
 swap:
-  Apache[ -]?2(?:\.0)?: Apache 2.0
+  # Apache[ -]?2(?:\.0)?: Apache 2.0 # also a webserver, to be fixed
   "[0O]BSD": 0BSD
-  BSD: BSD
+  BSD: BSD   # also an operating system, but it's OK. BSD versions are not like BSD3 but 3BSD
   BSD[ -]?1: BSD-1
   BSD[ -]?2: BSD-2
   BSD[ -]?3: BSD-3
