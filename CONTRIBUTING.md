@@ -33,7 +33,7 @@ To add a new rule, we suggest following these steps:
 8. If useful, create a folder named "original_files" and add relevant original files to that directory.
 9. Add the rule to the vale/styles/jargonLint or vale/styles/optional directory.
     - To jargonLint, if the rule is generally applicable.
-    - To optional, if the rule is only for specific circumstances.
+    - To optional, if the rule is reserved for specific situations.
 10. Add your test files to the "tests" directory in whichever directory you selected in the earlier step.
 
 You can separate these steps into multiple pull requests.
