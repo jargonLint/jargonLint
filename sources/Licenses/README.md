@@ -2,7 +2,7 @@
 
 Licenses, such as those from [Creative Commons](https://creativecommons.org/licenses/), are often miswritten and mismatches between version statements (2.0 or v2) are not easy to track. The Licenses.yml rule aims to comprehensively solve these problems.
 
-We preferred to adopt the list of Debian-compatible licenses due to the fact that Debian, as a reliable organization, is also relatively restrictive in the licenses it accepts. Furthermore, the information provided with the [Debian Free Software Guidelines](https://wiki.debian.org/DebianFreeSoftwareGuidelines) (DFSG) is accessible and permissively licensed.
+We preferred to adopt the list of Debian-compatible licenses due to the fact that Debian, as a reliable organization, is also relatively selective in the licenses it accepts. Furthermore, the information provided with the [Debian Free Software Guidelines](https://wiki.debian.org/DebianFreeSoftwareGuidelines) (DFSG) is accessible and permissively licensed.
 
 ## Methodology
 
