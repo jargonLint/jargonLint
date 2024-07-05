@@ -26,8 +26,8 @@ Steps to follow:
 5. If useful, add any modified text that you think can be used in the future to this directory.
 6. Add your rule where the naming convention is "TitleCase.yml".
 7. Create a folder named "tests" and add your test files to that directory.
-    - The test file with accepted phrases should be "(RuleName).good"
-    - The test file with denied phrases should be "(RuleName).bad"
+    - The test file with accepted phrases should be "(RuleName).good.txt"
+    - The test file with denied phrases should be "(RuleName).bad.txt"
 8. If useful, create a folder named "original_files" and add relevant original files to that directory.
 9. Add the rule to the vale/styles/jargonLint or vale/styles/optional directory.
     - To jargonLint, if the rule is generally applicable.
