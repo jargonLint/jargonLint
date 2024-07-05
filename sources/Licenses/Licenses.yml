@@ -42,10 +42,10 @@ swap:
   CC[ -]?0[ -]?1(?:\.0)?: CC0 1.0
   # GNU Licences
   AGPL: AGPL
-  AGPL\s?v?3: AGPLv3
+  AGPL[ -]?v?3: AGPLv3
   GPL(?!\.org): GPL
-  GPL\s?v?2: GPLv2
-  GPL\s?v?3(?!\+): GPLv3
-  GPL\s?v?3\+: GPLv3+
+  GPL[ -]?v?2: GPLv2
+  GPL[ -]?v?3(?!\+): GPLv3
+  GPL[ -]?v?3\+: GPLv3+
   LGPL: LGPL
-  LGPL\s?v?3: LGPLv3
+  LGPL[ -]?v?3: LGPLv3
