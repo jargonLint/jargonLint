@@ -61,7 +61,7 @@ representative at an online or offline event.
 Instances of abusive, harassing, or otherwise unacceptable behavior may be
 reported to the maintainers responsible for enforcement at:
 
-alexvonme at matrix dot org
+at alexvonme : matrix dot org
 
 All complaints will be reviewed and investigated promptly and fairly.
 
