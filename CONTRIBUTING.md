@@ -15,7 +15,9 @@ If the GitHub suggestions you should see on the upper area are not satisfactory,
 
 ## Adding New Rules
 
-Steps to follow:
+We aim to add rules that are comprehensive and generally useful. Therefore, we cannot accept opinionated rules or those with a limited use case. 
+
+To add a new rule, we suggest following these steps:
 
 1. Create a folder in the sources directory that carries the name of your rule without the ".yml" extension.
 2. Enter the (RuleName) folder.
@@ -24,7 +26,7 @@ Steps to follow:
     - Please use the template in the sources directory to write this file.
 4. Append the licenses from your sources in a file named "LICENSE.OLD"
 5. If useful, add any modified text that you think can be used in the future to this directory.
-6. Add your rule where the naming convention is "TitleCase.yml".
+6. Add your rule where the naming convention is "PascalCase.yml".
 7. Create a folder named "tests" and add your test files to that directory.
     - The test file with accepted phrases should be "(RuleName).good.txt"
     - The test file with denied phrases should be "(RuleName).bad.txt"
