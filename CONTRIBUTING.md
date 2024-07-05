@@ -15,7 +15,7 @@ If the GitHub suggestions you should see on the upper area are not satisfactory,
 
 ## Adding New Rules
 
-We aim to add rules that are comprehensive and generally useful. Therefore, we cannot accept opinionated rules or those with a limited use case. 
+We prefer to add rules that are comprehensive and widely useful. Therefore, we usually cannot accept opinionated rules that strongly differ between projects.
 
 To add a new rule, we suggest following these steps:
 
