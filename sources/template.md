@@ -41,7 +41,7 @@
 
 - Links
 - Licenses
-- Retrieval dates
+- Retrieval date in the ISO 8601 standard, YYYY-MM-DD
 
 >1. Debian Compatible Licenses
 >    - Link: [The DFSG and Software Licenses](https://wiki.debian.org/DFSGLicenses)
