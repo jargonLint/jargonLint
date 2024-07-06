@@ -21,7 +21,7 @@ We added the [GNU Free Documentation License](https://www.gnu.org/licenses/fdl-1
 
 We added the [European Union Public Licence](https://commission.europa.eu/content/european-union-public-licence_en) (EUPL) since the EU endorses it.
 
-We can add the Apache license when the appropriate correction is complete for the Apache web server.
+We can add the Apache license when the appropriate correction mentioned in issue #42 is added for the Apache web server.
 
 ## Sources
 
