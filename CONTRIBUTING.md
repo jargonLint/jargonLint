@@ -15,7 +15,7 @@ If the GitHub suggestions you should see on the upper area are not satisfactory,
 
 ## Adding New Rules
 
-We prefer to add rules that are comprehensive and widely useful. Therefore, we usually cannot accept opinionated rules that strongly differ between projects.
+We prefer to add rules that are comprehensive and widely useful. Therefore, we usually cannot accept opinionated rules that strongly differ between projects. The goal of jargonLint, after all, is to create rules that complement other style guides.
 
 To add a new rule, we suggest following these steps:
 
