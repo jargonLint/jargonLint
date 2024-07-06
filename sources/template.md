@@ -1,4 +1,4 @@
-> Note: The examples provided under each section in this template are from an early version of the README.md for Licenses.yml.
+> Note: The examples provided under each section in this template are from an early version of the README.md for the Licenses.yml rule.
 
 ## Motivation
 
