@@ -11,10 +11,13 @@ jobs:
         continue-on-error: false  # this one cannot fail
         uses: actions/checkout@v4.1.7
 
-      - name: yamllint-action
+      - name: Check for errors in YAML files
         uses: ibiqlik/action-yamllint@v3
         #  uses: reviewdog/action-yamllint@v1  # failed to detect errors...
 
       - name: markdownlint-cli2-action
         #  uses: DavidAnson/markdownlint-cli2-action@v16.0.0
         uses: reviewdog/action-markdownlint@v0
+
+      - name: Check for file names errors
+        uses: ls-lint/action@v2.2.3
