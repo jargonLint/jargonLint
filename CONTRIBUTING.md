@@ -36,11 +36,9 @@ To add a new rule, we suggest following these steps:
     - To optional, if the rule is reserved for specific situations.
 10. Add your test files to the "tests" directory in whichever directory you selected in the earlier step.
 
-You can separate these steps into multiple pull requests.
+You can separate these steps into multiple pull requests. If anything seems unclear, we suggest reviewing the current rules as examples. You can also ask reach the maintainers for any suggestions or general guidance on how to add new rules.
 
-If you have any questions regarding these steps, you can review existing rules as examples. You can also ask for a suggestion or general guidance from the maintainers.
-
-### Optional:
+### Optional
 
 You can link the test files and rules across directories in the repository with GitHub actions.
 In case you are not familiar with this capability, we can fulfill this step for you.
