@@ -1,4 +1,4 @@
-## jargonLint rules
+## jargonLint Rules
 
 These rules are intended for general use and are written to complement other style guides.
 
