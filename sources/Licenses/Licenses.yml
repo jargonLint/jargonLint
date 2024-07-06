@@ -25,7 +25,7 @@ swap:
   MPL[ -]?2(?:\.0)?: MPL 2.0
   OFL: OFL
   WTFPL: WTFPL
-  Zlib: Zlib
+  zlib: zlib
   # Creative Commons Licenses
   CC[ -]?BY[ -]?: CC BY
   CC[ -]?BY[ -]?4(?:\.0)?: CC BY 4.0
