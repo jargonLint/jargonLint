@@ -1,0 +1,15 @@
+---
+# ls-lint configuration file. More information on the file format can be found on https://ls-lint.org/
+ls:
+  # all Markdown files are like CODE_OF_CONDUCT.md
+  .md: screamingsnakecase
+
+  # anything under this folder but not the folder itself
+  vale/styles/jargonLint/:
+    .dir: snake_case          # all subdirectories must comply this rule
+    .OLD: screamingsnakecase  # the LICENSE.OLD files
+    .yml: pascalcase
+    .yaml: pascalcase
+    .txt: pascalcase
+    .good.txt: pascalcase
+    .bad.txt: pascalcase
