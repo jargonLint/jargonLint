@@ -6,6 +6,7 @@ message: Use '%s' instead of '%s'
 action:
   name: replace
 swap:
+  # Apache[ -]?2(?:\.0)?: Apache 2.0 # See notes, will be added later.
   "[0O]BSD": 0BSD
   BSD: BSD
   BSD[ -]?1: BSD-1
