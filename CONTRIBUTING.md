@@ -38,6 +38,20 @@ To add a new rule, we suggest following these steps:
 
 You can separate these steps into multiple pull requests. If anything seems unclear, we suggest reviewing the current rules as examples. You can also ask reach the maintainers for any suggestions or general guidance on how to add new rules.
 
+### Rule Metadata
+
+We suggest minimizing comments to preserve structure in each rule. However, we ask that you add the description, link, and licenses. These should be after the initial "---" line of the YAML file and before the rule parameters. You can use the example here for reference:
+
+```
+---
+# Licenses.yml: Vale rule to correct miswritten license abbreviations
+# Source: https://github.com/jargonLint/jargonLint/vale/styles/Licenses.yml
+# License: MIT
+extension: foo
+```
+
+We ask that you choose a permissive license, with a strong preference for MIT. In case, your sources use a copylefted license such as the CC BY-SA or GPLv3, you can license your contribution under the same license. However, we suggest searching for a functionally similar source that is permissive instead. You can also discuss your sources or view our earlier discussions in the related topic, [Listing Possible Sources for information](https://github.com/jargonLint/jargonLint/discussions/31).
+
 ### Optional
 
 You can link the test files and rules across directories in the repository with GitHub actions.
