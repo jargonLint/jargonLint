@@ -46,4 +46,4 @@
 >1. Debian Compatible Licenses
 >    - Link: [The DFSG and Software Licenses](https://wiki.debian.org/DFSGLicenses)
 >    - License: [MIT (Expat)](https://salsa.debian.org/webmaster-team/webwml/-/blob/master/english/legal/licenses/mit.wml?ref_type=heads)
->    - Retrieved at: 05.07.2024
+>    - Retrieved at: 2024-07-05
