@@ -1,6 +1,8 @@
 # Contribution Guide
 
-jargonLint aims to be accessible to all developers and writers, regardless of prior experience. However, we ask that you follow this guide in your contributions. This helps us support consistency and structure within the repository.
+jargonLint aims to be accessible to all developers and writers, regardless of prior experience. 
+However, we ask that you follow this guide in your contributions. 
+This helps us support consistency and structure within the repository.
 
 ## Simple Fixes
 
@@ -15,7 +17,9 @@ If the GitHub suggestions you should see on the upper area are not satisfactory,
 
 ## Adding New Rules
 
-We prefer to add rules that are comprehensive and widely useful. Therefore, we usually cannot accept opinionated rules that strongly differ between projects. The goal of jargonLint, after all, is to create rules that complement other style guides.
+We prefer to add rules that are comprehensive and widely useful. 
+Therefore, we usually cannot accept opinionated rules that strongly differ between projects. 
+The goal of jargonLint, after all, is to create rules that complement other style guides.
 
 To add a new rule, we suggest following these steps:
 
@@ -36,11 +40,16 @@ To add a new rule, we suggest following these steps:
     - To optional, if the rule is reserved for specific situations.
 10. Add your test files to the "tests" directory in whichever directory you selected in the earlier step.
 
-You can separate these steps into multiple pull requests. If anything seems unclear, we suggest reviewing the current rules as examples. You can also ask reach the maintainers for any suggestions or general guidance on how to add new rules.
+You can separate these steps into multiple pull requests. 
+If anything seems unclear, we suggest reviewing the current rules as examples. 
+You can also ask reach the maintainers for any suggestions or general guidance on how to add new rules.
 
 ### Rule Metadata
 
-We suggest minimizing comments to preserve structure in each rule. However, we ask that you add the description, link, and licenses. These should be after the initial "---" line of the YAML file and before the rule parameters. You can use the example here for reference:
+We suggest minimizing comments to preserve structure in each rule. 
+However, we ask that you add the description, link, and licenses. 
+These should be after the initial "---" line of the YAML file and before the rule parameters. 
+You can use the example here for reference:
 
 ```yaml
 ---
@@ -50,7 +59,10 @@ We suggest minimizing comments to preserve structure in each rule. However, we a
 extension: foo
 ```
 
-We ask that you choose a permissive license, with a strong preference for MIT. In case, your sources use a copylefted license such as the CC BY-SA or GPLv3, you can license your contribution under the same license. However, we suggest searching for a functionally similar source that is permissive instead. You can also discuss your sources or view our earlier discussions in the related topic, [Listing Possible Sources for information](https://github.com/jargonLint/jargonLint/discussions/31).
+We ask that you choose a permissive license, with a strong preference for MIT. 
+In case, your sources use a copylefted license such as the CC BY-SA or GPLv3, you can license your contribution under the same license. 
+However, we suggest searching for a functionally similar source that is permissive instead. 
+You can also discuss your sources or view our earlier discussions in the related topic, [Listing Possible Sources for information](https://github.com/jargonLint/jargonLint/discussions/31).
 
 ### Optional
 
@@ -61,9 +73,11 @@ In case you are not familiar with this capability, we can fulfill this step for 
 
 We will review your contribution at our earliest convenience and would appreciate your patience.
 
-In general, we will not edit your commits and instead only suggest edits where necessary. If you disagree with our suggestions, we are open to discussing the proposed changes.
+In general, we will not edit your commits and instead only suggest edits where necessary. 
+If you disagree with our suggestions, we are open to discussing the proposed changes.
 
-Each approved pull request by contributors will remain open until the contributor signs off or several hours have passed. If you want to delay the merging of the pull request for whatever reason, explain the reason in the comments of the pull request.
+Each approved pull request by contributors will remain open until the contributor signs off or several hours have passed. 
+If you want to delay the merging of the pull request for whatever reason, explain the reason in the comments of the pull request.
 
 ## How to Report a Bug
 
@@ -75,8 +89,13 @@ If you come across a bug, we ask that you answer a few questions in the issue yo
 
 ## Suggestions
 
-Please make any suggestions in [Discussions](https://github.com/jargonLint/jargonLint/discussions). You can find discussion topics related to your suggestion and check out other topics there.
+Please make any suggestions in [Discussions](https://github.com/jargonLint/jargonLint/discussions). 
+You can find discussion topics related to your suggestion and check out other topics there.
 
 ## Credit
 
-Please feel free to add yourself to the CONTRIBUTORS.md file with your pull request. We appreciate your effort and would love to add you to our list of contributors.
+By signing off on your commits, you affirm that your commit complies with the repository terms, the [Developer Certificate of Origin](/DCO) (DCO).
+This simply ensures that you have the legal right to make the contribution.
+
+Please feel free to add yourself to the CONTRIBUTORS.md file with your pull request. 
+We appreciate your efforts and would love to add you to our list of contributors.
