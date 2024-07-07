@@ -1,0 +1,56 @@
+---
+# Licenses.yml: Vale rule to correct miswritten license abbreviations
+# Source: https://github.com/jargonLint/jargonLint/vale/styles/Licenses.yml
+# License: MIT
+extends: substitution
+ignorecase: true
+level: warning
+message: Use '%s' instead of '%s'
+action:
+  name: replace
+swap:
+  # Apache[ -]?2(?:\.0)?: Apache 2.0 # See notes, will be added later.
+  "[0O][-]?BSD|BSD0": 0BSD
+  BSD: BSD
+  BSD[ -]?1: BSD-1
+  BSD[ -]?2: BSD-2
+  BSD[ -]?3: BSD-3
+  CPL: CPL
+  CPL[ -]?1(?:\.0)?: CPL 1.0
+  EPL: EPL
+  EPL[ -]?1(?:\.0)?: EPL 1.0
+  EPL[ -]?2(?:\.0)?: EPL 2.0
+  EUPL: EUPL
+  EUPL[ -]?v?1(?:\.2)?: EUPL v1.2
+  ISC: ISC
+  MIT: MIT
+  MirOS: MirOS
+  MPL: MPL
+  MPL[ -]?2(?:\.0)?: MPL 2.0
+  OFL: OFL
+  WTFPL: WTFPL
+  zlib: zlib
+  # Creative Commons Licenses
+  CC[ -]?BY[ -]?: CC BY
+  CC[ -]?BY[ -]?4(?:\.0)?: CC BY 4.0
+  CC[ -]?BY[ -]?NC: CC BY-NC
+  CC[ -]?BY[ -]?NC[ -]?4(?:\.0)?: CC BY-NC 4.0
+  CC[ -]?BY[ -]?NC[ -]?ND: CC BY-NC-ND
+  CC[ -]?BY[ -]?NC[ -]?ND[ -]?4(?:\.0)?: CC BY-NC-ND 4.0
+  CC[ -]?BY[ -]?NC[ -]?SA: CC BY-NC-SA
+  CC[ -]?BY[ -]?NC[ -]?SA[ -]?4(?:\.0)?: CC BY-NC-SA 4.0
+  CC[ -]?BY[ -]?ND: CC BY-ND
+  CC[ -]?BY[ -]?ND[ -]?4(?:\.0)?: CC BY-ND 4.0
+  CC[ -]?BY[ -]?SA: CC BY-SA
+  CC[ -]?BY[ -]?SA[ -]?4(?:\.0)?: CC BY-SA 4.0
+  CC[ -]?[O0]: CC0
+  CC[ -]?0[ -]?1(?:\.0)?: CC0 1.0
+  # GNU Licences
+  AGPL: AGPL
+  AGPL[ -]?v?3(?:\.0)?: AGPLv3
+  GPL(?!\.org): GPL
+  GPL[ -]?v?2(?:\.0)?: GPLv2
+  GPL[ -]?v?3(?!\+): GPLv3
+  GPL[ -]?v?3\+: GPLv3+
+  LGPL: LGPL
+  LGPL[ -]?v?3(?:\.0)?: LGPLv3

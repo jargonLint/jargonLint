@@ -1,0 +1,20 @@
+0-BSD
+OBSD
+BSD0
+BSD2
+BSD 3 Clause
+EPL 2
+EUPL 1.2
+MIROS
+ofl
+wtfpl
+CC-BY
+CC-BY-4
+CC-BY-4.0
+CC BY ND
+CC BY SA
+CCO
+gpl
+AGPL 3.0
+GPL-2
+LGPL 3
