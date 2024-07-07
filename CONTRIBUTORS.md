@@ -1,10 +1,10 @@
 # Contributors
 
-## Maintainers
+## Maintainer
 
 - alexvonme
 - ccoVeille
 
-## Contributors
+## Contributor
 
 -
