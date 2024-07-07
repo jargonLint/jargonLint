@@ -1,4 +1,7 @@
 ---
+# Licenses.yml: Vale rule to correct miswritten license abbreviations
+# Source: https://github.com/jargonLint/jargonLint/vale/styles/Licenses.yml
+# License: MIT
 extends: substitution
 ignorecase: true
 level: warning
