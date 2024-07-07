@@ -14,7 +14,7 @@ In this case, you can simply press the "edit" option in the upper page and GitHu
 2. Editing the fork
 3. Opening a pull request
 
-If the GitHub suggestions you should see on the upper area are not satisfactory, and you have limited experience, you can simply open an issue for your fix.
+If the GitHub suggestions you see on the upper area are not satisfactory, and you have limited experience, you can simply open an issue for your fix.
 
 ## Adding New Rules
 
@@ -24,8 +24,8 @@ The goal of jargonLint, after all, is to create rules that complement other styl
 
 To add a new rule, we suggest following these steps:
 
-1. Create a folder in the sources directory that carries the name of your rule without the ".yml" extension.
-2. Enter the (RuleName) folder.
+1. Create a folder in the sources directory that carries the snake_case name of your rule without the ".yml" extension.
+2. Enter the (rule_name) folder.
 3. Create a "README.md" file.
     - This file should detail your motivation, methodology, notes, and sources.
     - Please use the template in the sources directory to write this file.
@@ -39,11 +39,11 @@ To add a new rule, we suggest following these steps:
 9. Add the rule to the vale/styles/jargonLint or vale/styles/optional directory.
     - To jargonLint, if the rule is generally applicable.
     - To optional, if the rule is reserved for specific situations.
-10. Add your test files to the "tests" directory in whichever directory you selected in the earlier step.
+10. Add your test files to the "tests" folder in whichever directory you selected in the earlier step.
 
 You can separate these steps into multiple pull requests.
 If anything seems unclear, we suggest reviewing the current rules as examples.
-You can also ask reach the maintainers for any suggestions or general guidance on how to add new rules.
+You can also reach the maintainers for any suggestions or general guidance on how to add new rules.
 
 ### Rule Metadata
 
@@ -63,7 +63,7 @@ extension: foo
 We ask that you choose a permissive license, with a strong preference for MIT.
 In case, your sources use a copylefted license such as the CC BY-SA or GPLv3, you can license your contribution under the same license.
 However, we suggest searching for a functionally similar source that is permissive instead.
-You can also discuss your sources or view our earlier discussions in the related topic, [Listing Possible Sources for information](https://github.com/jargonLint/jargonLint/discussions/31).
+You can also discuss your sources or view our earlier conversations in the related Discussions topic, [Listing Possible Sources for information](https://github.com/jargonLint/jargonLint/discussions/31).
 
 ### Optional
 
@@ -78,7 +78,7 @@ In general, we will not edit your commits and instead only suggest edits where n
 If you disagree with our suggestions, we are open to discussing the proposed changes.
 
 Each approved pull request by contributors will remain open until the contributor signs off or several hours have passed.
-If you want to delay the merging of the pull request for whatever reason, explain the reason in the comments of the pull request.
+If you want to delay the merging of the pull request for whatever reason, we ask that you explain the reason in the comments of the pull request.
 
 ## How to Report a Bug
 
