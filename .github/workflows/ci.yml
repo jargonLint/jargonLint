@@ -14,3 +14,7 @@ jobs:
       - name: yamllint-action
         uses: ibiqlik/action-yamllint@v3
         #  uses: reviewdog/action-yamllint@v1  # failed to detect errors...
+
+      - name: markdownlint-cli2-action
+        #  uses: DavidAnson/markdownlint-cli2-action@v16.0.0
+        uses: reviewdog/action-markdownlint@v0
