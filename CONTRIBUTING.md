@@ -42,7 +42,7 @@ You can separate these steps into multiple pull requests. If anything seems uncl
 
 We suggest minimizing comments to preserve structure in each rule. However, we ask that you add the description, link, and licenses. These should be after the initial "---" line of the YAML file and before the rule parameters. You can use the example here for reference:
 
-```
+```yaml
 ---
 # Licenses.yml: Vale rule to correct miswritten license abbreviations
 # Source: https://github.com/jargonLint/jargonLint/vale/styles/Licenses.yml
