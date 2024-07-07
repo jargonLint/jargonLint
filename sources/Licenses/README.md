@@ -1,3 +1,5 @@
+# Licenses.yml
+
 ## Motivation
 
 Licenses, such as those from [Creative Commons](https://creativecommons.org/licenses/), are often miswritten and mismatches between version statements (2.0 or v2) are not easy to track. The Licenses.yml rule aims to comprehensively solve these problems.
