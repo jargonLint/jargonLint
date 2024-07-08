@@ -101,3 +101,68 @@ This simply ensures that you have the legal right to make the contribution.
 
 Please feel free to add yourself to the CONTRIBUTORS.md file with your pull request.
 We appreciate your efforts and would love to add you to our list of contributors.
+
+## Tooling
+
+### yamllint
+
+Validating the errors in your YAML files
+
+- install [yamllint](https://github.com/adrienverge/yamllint)
+- launch `yamllint`
+
+```shell
+yamllint .
+```
+
+### markdownlint
+
+Validating and fixing the errors in your Markdown files
+
+- install [markdownlint](https://github.com/markdownlint/markdownlint)
+- launch `markdownlint`
+
+```shell
+markdownlint --fix .
+```
+
+### ls-lint
+
+Validating the file name
+
+- install [markdownlint](https://github.com/loeffel-io/ls-lint)
+- launch `ls-lint`
+
+```shell
+ls-lint .
+```
+
+### yq
+
+- install [yq](https://github.com/mikefarah/yq)
+
+#### sort rules that extend substitution
+
+- the launch the following command
+
+```shell
+yq --inplace '.swap |= ((to_entries | sort_by(.value | downcase)) | from_entries) ' file.yml
+```
+
+It will sort the `swap` node by reordering them by value (case-insensitive).
+
+<details>
+<summary>Click here to get explanations about yq rules used here</summary>
+
+[--inplace](https://mikefarah.gitbook.io/yq/commands/evaluate#flags) ⇒ apply the yq transformation on the provided file (do not dump to stdout)
+
+[|=](https://mikefarah.gitbook.io/yq/operators/assign-update#relative-form-or) ⇒ take a node and replace its content
+
+[to_entries](https://mikefarah.gitbook.io/yq/operators/entries#to_entries-array) /
+[from_entries](https://mikefarah.gitbook.io/yq/operators/entries#from_entries-map) ⇒ convert map to array, then array to map
+
+[sort_by](https://mikefarah.gitbook.io/yq/operators/sort-keys) ⇒ sort array (map cannot be sorted)
+
+[downcase](https://mikefarah.gitbook.io/yq/operators/string-operators) ⇒ use lowercase to order them
+
+</details>
