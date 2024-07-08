@@ -1,0 +1,10 @@
+[default]
+extend-ignore-identifiers-re = [
+    "ND", # CC-BY-ND, or ND-JSON
+]
+
+[files]
+extend-exclude = [
+    "**/*.good.txt",
+    "**/*.bad.txt"
+]
