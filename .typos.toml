@@ -1,6 +1,9 @@
 [default]
-extend-ignore-identifiers-re = [
-    "ND", # CC-BY-ND, or ND-JSON
+extend-ignore-re = [
+    # ND-JSON and any regexp trying to catch it are valid
+    "ND.{1,5}JSON",
+    # CC-BY-ND and all variants and the regexp to catch it are valid
+    "(NC|BY).{1,5}ND",
 ]
 
 [files]
