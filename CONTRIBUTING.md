@@ -130,7 +130,7 @@ markdownlint --fix .
 
 Validating the file name
 
-- install [markdownlint](https://github.com/loeffel-io/ls-lint)
+- install [ls-lint](https://github.com/loeffel-io/ls-lint)
 - launch `ls-lint`
 
 ```shell
