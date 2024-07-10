@@ -104,6 +104,12 @@ We appreciate your efforts and would love to add you to our list of contributors
 
 ## Tooling
 
+We use linters to standardize and maintain style in our files. 
+These linters are added as GitHub actions to verify that each pull request is compatible.
+In this section, we provide instructions to detail how you can run these linters locally.
+
+In addition, we also describe the steps to deconstruct the rules to help their adoption for other use cases.
+
 ### yamllint
 
 Validating the errors in your YAML files
