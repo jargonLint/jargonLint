@@ -36,7 +36,7 @@ To add a new rule, we suggest following these steps:
     - The test file with accepted phrases should be "(RuleName).good.txt"
     - The test file with denied phrases should be "(RuleName).bad.txt"
 8. If useful, create a folder named "original_files" and add relevant original files to that directory.
-9. Add the rule to the vale/styles/jargonLint or vale/styles/optional directory.
+9. Add the rule to the vale/styles/jargonLint or vale/styles/jargonExtra directory.
     - To jargonLint, if the rule is generally applicable.
     - To jargonExtra, if the rule is reserved for specific situations.
 10. Add your test files to the "tests" folder in whichever directory you selected in the earlier step.
