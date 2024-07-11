@@ -132,6 +132,7 @@ Validating and fixing the errors in your Markdown files
 markdownlint --fix .
 ```
 
+You can also use the [VS Code extension](https://github.com/DavidAnson/vscode-markdownlint) based on the [markdownlint library](https://github.com/DavidAnson/markdownlint) for Node.js.
 ### ls-lint
 
 Validating the file name
