@@ -110,15 +110,15 @@ In this section, we provide instructions to detail how you can run these linters
 
 In addition, we also describe the steps to deconstruct the rules to help their adoption for other use cases.
 
-### yamllint
+### ls-lint
 
-Validating the errors in your YAML files
+Validating the file name
 
-- install [yamllint](https://github.com/adrienverge/yamllint)
-- launch `yamllint`
+- install [ls-lint](https://github.com/loeffel-io/ls-lint)
+- launch `ls-lint`
 
 ```shell
-yamllint .
+ls-lint .
 ```
 
 ### markdownlint
@@ -134,15 +134,26 @@ markdownlint --fix .
 
 You can also use the [VS Code extension](https://github.com/DavidAnson/vscode-markdownlint) based on the [markdownlint library](https://github.com/DavidAnson/markdownlint) for Node.js.
 
-### ls-lint
+### typos
 
-Validating the file name
+Correcting spelling mistakes in code
 
-- install [ls-lint](https://github.com/loeffel-io/ls-lint)
-- launch `ls-lint`
+- install [typos](https://github.com/crate-ci/typos)
+- launch `typos`
 
 ```shell
-ls-lint .
+typos -w
+```
+
+### yamllint
+
+Validating the errors in your YAML files
+
+- install [yamllint](https://github.com/adrienverge/yamllint)
+- launch `yamllint`
+
+```shell
+yamllint .
 ```
 
 ### yq
