@@ -104,7 +104,7 @@ We appreciate your efforts and would love to add you to our list of contributors
 
 ## Tooling
 
-We use linters to standardize and maintain style in our files. 
+We use linters to standardize and maintain style in our files.
 These linters are added as GitHub Actions to verify that each pull request is compatible.
 In this section, we provide instructions to detail how you can run these linters locally.
 
@@ -133,6 +133,7 @@ markdownlint --fix .
 ```
 
 You can also use the [VS Code extension](https://github.com/DavidAnson/vscode-markdownlint) based on the [markdownlint library](https://github.com/DavidAnson/markdownlint) for Node.js.
+
 ### ls-lint
 
 Validating the file name
