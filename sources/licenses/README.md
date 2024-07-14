@@ -9,17 +9,23 @@ We preferred to adopt the list of Debian-compatible licenses due to the fact tha
 Furthermore, the information provided with the [Debian Free Software Guidelines](https://wiki.debian.org/DebianFreeSoftwareGuidelines) (DFSG) is accessible and permissively licensed.
 You can review a comparison of Debian-compatible licenses with the list of licenses approved by other organizations in this [table](https://en.wikipedia.org/wiki/Comparison_of_free_and_open-source_software_licenses#Approvals).
 
+We also reviewed the [SPDX](https://spdx.dev/) which is developed under the Linux Foundation to develop open standards in SBOM (software bill of materials) documents.
+In particular, we relied on the [SPDX licenses list](https://spdx.org/licenses/) to avoid overcorrections and in deciding which versions of licenses to include.
+
 ## Methodology
 
 1. Created a basic and regex capable list of phrases from the DFSG-compatible Licenses
 2. Reviewed primary sources and Wikipedia articles to find the appropriate form to reference the licenses
 3. Separated licences from GNU and Creative Commons under their own headings
-4. Added other BSD and Creative Commons licenses
-5. Removed licenses that are too short or use common words, such as Artistic License 1.0
-6. Removed superseded licenses, such as IBM Public License 1.0
-7. Added versions specified within the DFSG-compatible Licenses page
-8. Added updated versions for old licenses, such as Eclipse Public License 2.0
-9. Added corrections for licenses where versions are significant or emphasized, such as GPLv2
+4. Removed items from the list:
+    - Licenses where the abbraviations are too short or use common words: Artistic License 1.0
+    - Superseded licenses: IBM Public License 1.0
+5. Made additions to the list:
+    - Other BSD licenses
+    - [International Creative Commons licenses](https://creativecommons.org/licenses/list.en#international-40)
+    - License for Creative Commons Public Domain: CC0 1.0
+    - License versions that were approved by both the OSI (Open Source Initiative) and FSF (Free Software), as listed by the SPDX
+6. Created an exceptions section to prevent correcting SPDX short identifiers.
 
 ## Notes
 
@@ -41,3 +47,8 @@ We can add the Apache license when the appropriate correction mentioned in issue
     - Link: [Licenses List](https://creativecommons.org/licenses)
     - License: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
     - Retrieved at: 2024-07-05
+
+3. SPDX License List
+    - Link: [License List](https://github.com/spdx/license-list-data/blob/main/licenses.md?plain=1)
+    - License: [CC0-1.0](https://creativecommons.org/publicdomain/zero/1.0)
+    - Retrieved at: 2024-07-14
