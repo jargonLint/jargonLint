@@ -9,7 +9,7 @@ We preferred to adopt the list of Debian-compatible licenses due to the fact tha
 Furthermore, the information provided with the [Debian Free Software Guidelines](https://wiki.debian.org/DebianFreeSoftwareGuidelines) (DFSG) is accessible and permissively licensed.
 You can review a comparison of Debian-compatible licenses with the list of licenses approved by other organizations in this [table](https://en.wikipedia.org/wiki/Comparison_of_free_and_open-source_software_licenses#Approvals).
 
-We also reviewed the [SPDX](https://spdx.dev/) (Software Package Data Exchange) which is developed under the Linux Foundation to develop open standards in SBOM (software bill of materials) documents.
+We also reviewed the [Software Package Data Exchange](https://spdx.dev/) (SPDX) which is developed under the Linux Foundation to develop open standards in SBOM (software bill of materials) documents.
 In particular, we relied on the [SPDX licenses list](https://spdx.org/licenses/) to avoid overcorrections and in deciding which versions of licenses to include.
 
 ## Methodology
@@ -50,5 +50,5 @@ We can add the Apache license when the appropriate correction mentioned in issue
 
 3. SPDX License List
     - Link: [License List](https://github.com/spdx/license-list-data/blob/41edd7ee3a28604391226c7472299c7f600c6cae/licenses.md)
-    - License: [CC0-1.0](https://creativecommons.org/publicdomain/zero/1.0)
+    - License: [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0)
     - Retrieved at: 2024-07-14
