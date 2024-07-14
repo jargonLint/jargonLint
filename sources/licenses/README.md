@@ -20,12 +20,12 @@ In particular, we relied on the [SPDX licenses list](https://spdx.org/licenses/)
 4. Removed items from the list:
     - Licenses where the abbraviations are too short or use common words: Artistic License 1.0
     - Superseded licenses: IBM Public License 1.0
-5. Made additions to the list:
+5. Added items to the list:
     - Other BSD licenses
     - [International Creative Commons licenses](https://creativecommons.org/licenses/list.en#international-40)
     - License for Creative Commons Public Domain: CC0 1.0
     - License versions that were approved by both the OSI (Open Source Initiative) and FSF (Free Software), as listed by the SPDX
-6. Created an exceptions section to prevent correcting SPDX short identifiers.
+6. Created an exceptions section to prevent correcting SPDX short identifiers
 
 ## Notes
 
