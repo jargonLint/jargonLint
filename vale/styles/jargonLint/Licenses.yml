@@ -53,9 +53,9 @@ swap:
   AGPL[ -]?v?3(?:\.0)?: AGPLv3
   GPL(?!\.org): GPL
   GPL[ -]?v?2(?:\.0)?: GPLv2
-  GPL[ -]?v?3(?!\+): GPLv3
-  GPL[ -]?v?3\+: GPLv3+
+  GPL[ -]?v?3(?!\.0)?: GPLv3
   LGPL: LGPL
+  LGPL[ -]?v?2(?:\.1)?: LGPLv2.1
   LGPL[ -]?v?3(?:\.0)?: LGPLv3
 exceptions:
   # Exceptions to avoid correcting SPDX short identifiers
