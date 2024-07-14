@@ -36,3 +36,8 @@ We can add the Apache license when the appropriate correction mentioned in issue
     - Link: [The DFSG and Software Licenses](https://wiki.debian.org/DFSGLicenses)
     - License: [MIT (Expat)](https://salsa.debian.org/webmaster-team/webwml/-/blob/master/english/legal/licenses/mit.wml?ref_type=heads)
     - Retrieved at: 2024-07-05
+
+2. Creative Commons Licenses
+    - Link: [Licenses List](https://creativecommons.org/licenses)
+    - License: [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
+    - Retrieved at: 2024-07-05
