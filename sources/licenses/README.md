@@ -49,6 +49,6 @@ We can add the Apache license when the appropriate correction mentioned in issue
     - Retrieved at: 2024-07-05
 
 3. SPDX License List
-    - Link: [License List]([https://github.com/spdx/license-list-data/blob/main/licenses.md?plain=1](https://github.com/spdx/license-list-data/blob/41edd7ee3a28604391226c7472299c7f600c6cae/licenses.md))
+    - Link: [License List](https://github.com/spdx/license-list-data/blob/41edd7ee3a28604391226c7472299c7f600c6cae/licenses.md)
     - License: [CC0-1.0](https://creativecommons.org/publicdomain/zero/1.0)
     - Retrieved at: 2024-07-14
