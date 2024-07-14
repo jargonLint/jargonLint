@@ -62,9 +62,13 @@ exceptions:
   - CPL-1.0
   - EPL-1.0
   - EPL-2.0
+  - EUPL-1.1
   - EUPL-1.2
+  - MPL-1.1
   - MPL-2.0
+  - OFL-1.1
   - Zlib
+  # Creative Commons Licenses
   - CC-BY
   - CC-BY-4.0
   - CC-BY-NC
