@@ -29,12 +29,19 @@ In particular, we relied on the [SPDX licenses list](https://spdx.org/licenses/)
 
 ## Notes
 
+### Non-DFSG licenses
+
 We added the [GNU Free Documentation License](https://www.gnu.org/licenses/fdl-1.3.html) (GFDL), which Debian explicitly [rejects](https://people.debian.org/~srivasta/Position_Statement.xhtml).
-The reason for this addition is that many documents we can use, such as the [SUSE style guide](https://documentation.suse.com/style/current/single-html/docu_styleguide/), are licensed under GFDL.
+The reason for this addition is that many documents we can reference, such as the [SUSE style guide](https://documentation.suse.com/style/current/single-html/docu_styleguide/), use it.
 
 We added the [European Union Public Licence](https://commission.europa.eu/content/european-union-public-licence_en) (EUPL) since the EU endorses it.
 
-We can add the Apache license when the appropriate correction mentioned in issue #42 is added for the Apache web server.
+### Possible future additions
+
+We can add the Apache license when we implement the appropriate correction mentioned in issue #42, for the Apache web server.
+
+Other non-DFSG licenses that were also approved by both the OSI and FSF weren't added to the rule.
+We listed them in MODIFIED_SPDX_LIST.md, to simplify an enhancement, in case the current rule becomes insufficient.
 
 ## Sources
 
