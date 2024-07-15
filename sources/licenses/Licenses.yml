@@ -58,7 +58,7 @@ swap:
   LGPL[ -]?v?2(?:\.1)?: LGPLv2.1
   LGPL[ -]?v?3(?:\.0)?: LGPLv3
 exceptions:
-  # Exceptions to avoid correcting SPDX short identifiers
+  # Exceptions to avoid correcting SPDX identifiers from spdx.org/licenses
   - CPL-1.0
   - EPL-1.0
   - EPL-2.0
