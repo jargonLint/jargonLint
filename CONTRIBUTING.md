@@ -39,7 +39,7 @@ To add a new rule, we suggest following these steps:
 9. Add the rule to the vale/styles/jargonLint or vale/styles/jargonExtra directory.
     - To jargonLint, if the rule is generally applicable.
     - To jargonExtra, if the rule is reserved for specific situations.
-10. Add your test files to the "tests" folder in whichever directory you selected in the earlier step.
+10. Add your test files to the vale/tests directory.
 
 You can separate these steps into multiple pull requests.
 If anything seems unclear, we suggest reviewing the current rules as examples.
@@ -93,14 +93,6 @@ If you come across a bug, we ask that you answer a few questions in the issue yo
 
 Please make any suggestions in [Discussions](https://github.com/jargonLint/jargonLint/discussions).
 You can find discussion topics related to your suggestion and check out other topics there.
-
-## Credit
-
-By signing off on your commits, you affirm that your commit complies with the repository terms, the [Developer Certificate of Origin](/DCO) (DCO).
-This simply ensures that you have the legal right to make the contribution.
-
-Please feel free to add yourself to the CONTRIBUTORS.md file with your pull request.
-We appreciate your efforts and would love to add you to our list of contributors.
 
 ## Tooling
 
@@ -185,3 +177,11 @@ It will sort the `swap` node by reordering them by value (case-insensitive).
 [downcase](https://mikefarah.gitbook.io/yq/operators/string-operators) ⇒ use lowercase to order them
 
 </details>
+
+## Credit
+
+By signing off on your commits, you affirm that your commit complies with the repository terms, the [Developer Certificate of Origin](/DCO) (DCO).
+This simply ensures that you have the legal right to make the contribution.
+
+Please feel free to add yourself to the CONTRIBUTORS.md file with your pull request.
+We appreciate your efforts and would love to add you to our list of contributors.
