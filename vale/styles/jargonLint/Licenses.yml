@@ -5,7 +5,7 @@
 extends: substitution
 ignorecase: true
 level: warning
-message: Use '%s' instead of '%s'
+message: Use the suggested license abbreviation '%s' instead of '%s'
 action:
   name: replace
 swap:
@@ -21,8 +21,8 @@ swap:
   EPL[ -]?1(?:\.0)?: EPL 1.0
   EPL[ -]?2(?:\.0)?: EPL 2.0
   EUPL: EUPL
-  EUPL[ -]?v?1(?:\.1)?: EUPL v1.1
-  EUPL[ -]?v?1(?:\.2)?: EUPL v1.2
+  EUPL[ -]?v?1.1: EUPL v1.1
+  EUPL[ -]?v?1.2: EUPL v1.2
   ISC: ISC
   MIT: MIT
   MirOS: MirOS
@@ -50,15 +50,15 @@ swap:
   CC[ -]?0[ -]?1(?:\.0)?: CC0 1.0
   # GNU licences
   AGPL: AGPL
-  AGPL[ -]?v?3(?:\.0)?: AGPLv3
+  AGPL[ -]?v?3(?:\.0)?.*(?!only|or-later): AGPLv3
   GPL(?!\.org): GPL
-  GPL[ -]?v?2(?:\.0)?: GPLv2
-  GPL[ -]?v?3(?!\.0)?: GPLv3
+  GPL[ -]?v?2(?:\.0)?.*(?!only|or-later): GPLv2
+  GPL[ -]?v?3(?!\.0)?.*(?!only|or-later): GPLv3
   LGPL: LGPL
-  LGPL[ -]?v?2(?:\.1)?: LGPLv2.1
-  LGPL[ -]?v?3(?:\.0)?: LGPLv3
+  LGPL[ -]?v?2(?:\.1)?.*(?!only|or-later): LGPLv2.1
+  LGPL[ -]?v?3(?:\.0)?.*(?!only|or-later): LGPLv3
 exceptions:
-  # Exceptions to avoid correcting SPDX short identifiers
+  # Exceptions to avoid correcting SPDX identifiers from spdx.org/licenses
   - CPL-1.0
   - EPL-1.0
   - EPL-2.0
@@ -81,3 +81,13 @@ exceptions:
   - CC-BY-SA
   - CC-BY-SA-4.0
   - CC0-1.0
+  - AGPL-3.0-only
+  - AGPL-3.0-or-later
+  - GPL-2.0-only
+  - GPL-2.0-or-later
+  - GPL-3.0-only
+  - GPL-3.0-or-later
+  - LGPL-2.1-only
+  - LGPL-2.1-or-later
+  - LGPL-3.0-only
+  - LGPL-3.0-or-later
