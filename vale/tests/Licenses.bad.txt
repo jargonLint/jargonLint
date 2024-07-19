@@ -4,17 +4,22 @@ BSD0
 BSD2
 BSD 3 Clause
 EPL 2
+EUPLv1.1
 EUPL 1.2
 MIROS
 ofl
 wtfpl
-CC-BY
-CC-BY-4
-CC-BY-4.0
+ZLib
+CCBY
+CC BY-4.0
 CC BY ND
 CC BY SA
 CCO
 gpl
-AGPL 3.0
+AGPL v3.0
 GPL-2
 LGPL 3
+Agpl3
+GPL-2-only
+GPL-3-later
+lGPL-2.0-or-later
