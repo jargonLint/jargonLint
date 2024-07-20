@@ -50,13 +50,13 @@ swap:
   CC[ -]?0[ -]?1(?:\.0)?: CC0 1.0
   # GNU licences
   AGPL: AGPL
-  AGPL[ -]?v?3(?:\.0)?.*(?!only|or-later): AGPLv3
+  AGPL[ -]?v?3(?:\.0)?.*(?!only|later): AGPLv3
   GPL(?!\.org): GPL
-  GPL[ -]?v?2(?:\.0)?.*(?!only|or-later): GPLv2
-  GPL[ -]?v?3(?:\.0)?.*(?!only|or-later): GPLv3
+  GPL[ -]?v?2(?:\.0)?.*(?!only|later): GPLv2
+  GPL[ -]?v?3(?:\.0)?.*(?!only|later): GPLv3
   LGPL: LGPL
-  LGPL[ -]?v?2(?:\.1)?.*(?!only|or-later): LGPLv2.1
-  LGPL[ -]?v?3(?:\.0)?.*(?!only|or-later): LGPLv3
+  LGPL[ -]?v?2(?:\.1)?.*(?!only|later): LGPLv2.1
+  LGPL[ -]?v?3(?:\.0)?.*(?!only|later): LGPLv3
 exceptions:
   # Exceptions to avoid correcting SPDX identifiers from spdx.org/licenses
   - CPL-1.0
