@@ -21,8 +21,8 @@ swap:
   EPL[ -]?1(?:\.0)?: EPL 1.0
   EPL[ -]?2(?:\.0)?: EPL 2.0
   EUPL: EUPL
-  EUPL[ -]?v?1.1: EUPL v1.1
-  EUPL[ -]?v?1.2: EUPL v1.2
+  EUPL[ -]?v?1\.1: EUPL v1.1
+  EUPL[ -]?v?1\.2: EUPL v1.2
   ISC: ISC
   MIT: MIT
   MirOS: MirOS
