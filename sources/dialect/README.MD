@@ -1,6 +1,6 @@
 # Dialect Support
 
-This rule has net yet been added.
+This rule has not yet been added.
 For now, we have only added some files and sources.
 This section will gradually be expanded as the rule is written.
 
