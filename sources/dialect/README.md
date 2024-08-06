@@ -4,7 +4,8 @@ This rule has not yet been added.
 For now, we have only added some files and sources.
 This section will gradually be expanded as the rule is written.
 
-The files inside ``original_files`` were added from the version 1 tree of the original repository, [``en-wl/wordlist``](https://github.com/en-wl/wordlist/tree/v1).
+The files inside `original_files` were added from the v1 branch of the original repository, [`en-wl/wordlist`](https://github.com/en-wl/wordlist/tree/v1).
+The newer, v2 branch, doesn't include the [varcon folder](https://github.com/en-wl/wordlist/tree/v1/varcon).
 
 ## Sources
 
