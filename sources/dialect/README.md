@@ -11,10 +11,10 @@ The newer, v2 branch, doesn't include the [varcon folder](https://github.com/en-
 
 1. VarCon Documentation
     - Link: [Variant Conversion Info (VarCon)](https://github.com/en-wl/wordlist/blob/v1/varcon/README)
-    - License: [MIT-like](https://raw.githubusercontent.com/kevina/wordlist/master/scowl/Copyright)
+    - License: [MIT-like](https://raw.githubusercontent.com/kevina/wordlist/master/scowl/Copyright) (described as such in the titular [README.md](https://github.com/en-wl/wordlist/blob/v1/README.md))
     - Retrieved at: 2024-08-03
 
 2. VarCon List
     - Link: [varcon.txt](https://github.com/en-wl/wordlist/blob/v1/varcon/varcon.txt)
-    - License: [MIT-like](https://raw.githubusercontent.com/kevina/wordlist/master/scowl/Copyright)
+    - License: [MIT-like](https://raw.githubusercontent.com/kevina/wordlist/master/scowl/Copyright) (described as such in the titular [README.md](https://github.com/en-wl/wordlist/blob/v1/README.md))
     - Retrieved at: 2024-08-03
