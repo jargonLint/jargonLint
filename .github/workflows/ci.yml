@@ -20,7 +20,7 @@ jobs:
         uses: reviewdog/action-markdownlint@v0
 
       - name: Check for file names errors
-        uses: ls-lint/action@v2.2.3
+        uses: ls-lint/action@v2.3.0
 
       - name: typos-action
         #  uses: crate-ci/typos@v1.21.0
