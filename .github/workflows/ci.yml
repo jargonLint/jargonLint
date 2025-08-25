@@ -9,7 +9,7 @@ jobs:
     steps:
       - name: checkout-action
         continue-on-error: false  # this one cannot fail
-        uses: actions/checkout@v4.1.7
+        uses: actions/checkout@v5
 
       - name: Check for errors in YAML files
         uses: ibiqlik/action-yamllint@v3
@@ -20,7 +20,7 @@ jobs:
         uses: reviewdog/action-markdownlint@v0
 
       - name: Check for file names errors
-        uses: ls-lint/action@v2.3.0
+        uses: ls-lint/action@v2.3.1
 
       - name: typos-action
         #  uses: crate-ci/typos@v1.21.0
